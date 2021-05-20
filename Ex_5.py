@@ -1,10 +1,12 @@
 class GetnPrint:
-    def __init__():
-        getStr = ''
+    def __init__(getStr):
+        getStr
     def getString():
-        getStr = input("Enter a String")
+        getStr = input('Enter a String : ')
+        return getStr
     def printString():
         print(GetnPrint.getString())
 
-GetnPrint.getString()
-GetnPrint.printString()
+def testFunc():
+    GetnPrint.printString()
+testFunc()
