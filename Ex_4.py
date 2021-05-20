@@ -1,0 +1,5 @@
+raw = str((input('Enter numbers with commas :')))
+listRaw = raw.split(',')
+print(listRaw)
+tupleRaw = tuple(listRaw)
+print(tupleRaw)

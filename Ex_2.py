@@ -13,7 +13,7 @@ for x in factArray:
     inputfact = x
     for i in range(1,inputfact+1):
         fact = fact * i
-    print(fact)
+    print(fact,end=' ')
     fact=1
 
 
